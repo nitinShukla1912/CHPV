@@ -1,4 +1,4 @@
-# Chandipura virus genomic surveillance in India
+# Chandipura virus outbreak 2026 genomic surveillance in Gujarat, India
 
 This repository contains a Nextstrain dataset developed to explore the genomic epidemiology of Chandipura virus (CHPV), with a focus on viruses detected during the 2026 acute encephalitis syndrome (AES) outbreak in Gujarat, India.
 
