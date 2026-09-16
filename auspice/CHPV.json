@@ -1,0 +1,3959 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "Genomic epidemiology of Chandipura virus (CHPV) outbreak",
+    "updated": "2026-09-12",
+    "build_url": "https://gbrc.gujarat.gov.in",
+    "data_provenance": [
+      {
+        "name": "Sequences generated as part of ongoing outbreak surveillance, Gujarat"
+      }
+    ],
+    "maintainers": [
+      {
+        "name": "GBRC",
+        "url": "https://gbrc.gujarat.gov.in"
+      }
+    ],
+    "display_defaults": {
+      "map_triplicate": false,
+      "color_by": "state",
+      "distance_measure": "num_date",
+      "geo_resolution": "district",
+      "branch_label": "none"
+    },
+    "genome_annotations": {
+      "nuc": {
+        "end": 11120,
+        "start": 1,
+        "strand": "+",
+        "type": "source",
+        "seqid": "config/NC_020805.1.gb"
+      },
+      "G": {
+        "end": 4645,
+        "seqid": "config/NC_020805.1.gb",
+        "start": 3053,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "L": {
+        "end": 11041,
+        "seqid": "config/NC_020805.1.gb",
+        "start": 4763,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "M": {
+        "end": 3004,
+        "seqid": "config/NC_020805.1.gb",
+        "start": 2315,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "N": {
+        "end": 1334,
+        "seqid": "config/NC_020805.1.gb",
+        "start": 66,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "P": {
+        "end": 2244,
+        "seqid": "config/NC_020805.1.gb",
+        "start": 1363,
+        "strand": "+",
+        "type": "CDS"
+      }
+    },
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Date",
+        "type": "continuous"
+      },
+      {
+        "key": "country",
+        "title": "Country",
+        "type": "categorical"
+      },
+      {
+        "key": "state",
+        "title": "State",
+        "type": "categorical",
+        "scale": [
+          [
+            "Gujarat",
+            "#0070c0"
+          ],
+          [
+            "Maharashtra",
+            "#da3030"
+          ],
+          [
+            "Andhra Pradesh",
+            "#354e68"
+          ],
+          [
+            "Rajasthan",
+            "#ffa700"
+          ]
+        ]
+      },
+      {
+        "key": "district",
+        "title": "District",
+        "type": "categorical",
+        "scale": [
+          [
+            "Ahmedabad",
+            "#f08080"
+          ],
+          [
+            "Aravalli",
+            "#457b9d"
+          ],
+          [
+            "Banaskantha",
+            "#6c757d"
+          ],
+          [
+            "Bhavnagar",
+            "#80ed99"
+          ],
+          [
+            "Dungarpur",
+            "#4361ee"
+          ],
+          [
+            "Gandhinagar",
+            "#5bc0be"
+          ],
+          [
+            "Karimnagar",
+            "#ffd449"
+          ],
+          [
+            "Kheda",
+            "#a6e1fa"
+          ],
+          [
+            "Mehsana",
+            "#3772ff"
+          ],
+          [
+            "Nagpur",
+            "#ff9770"
+          ],
+          [
+            "Patan",
+            "#14213d"
+          ],
+          [
+            "Sabarkantha",
+            "#9a8c98"
+          ],
+          [
+            "Sirohi",
+            "#b5e2fa"
+          ],
+          [
+            "Vadodara",
+            "#8E3A72"
+          ],
+          [
+            "Warangal",
+            "#5B3E8E"
+          ],
+          [
+            "Panchmahal",
+            "#bc6c25"
+          ]
+        ]
+      },
+      {
+        "key": "year",
+        "title": "Collection year",
+        "type": "categorical",
+        "scale": [
+          [
+            "2003",
+            "#4361ee"
+          ],
+          [
+            "2004",
+            "#9d4edd"
+          ],
+          [
+            "2007",
+            "#6a994e"
+          ],
+          [
+            "2024",
+            "#023e8a"
+          ],
+          [
+            "2026",
+            "#fb8b24"
+          ]
+        ]
+      }
+    ],
+    "filters": [
+      "country",
+      "state",
+      "district",
+      "year"
+    ],
+    "geo_resolutions": [
+      {
+        "key": "district",
+        "demes": {
+          "Dungarpur": {
+            "latitude": 23.8483,
+            "longitude": 73.7215
+          },
+          "Aravalli": {
+            "latitude": 23.462,
+            "longitude": 73.298
+          },
+          "Panchmahal": {
+            "latitude": 22.7785,
+            "longitude": 73.6151
+          },
+          "Nagpur": {
+            "latitude": 21.146633,
+            "longitude": 79.08886
+          },
+          "Warangal": {
+            "latitude": 17.9674,
+            "longitude": 79.5889
+          },
+          "Banaskantha": {
+            "latitude": 24.1724,
+            "longitude": 72.4387
+          },
+          "Kheda": {
+            "latitude": 22.7507,
+            "longitude": 72.6847
+          },
+          "Karimnagar": {
+            "latitude": 18.438555,
+            "longitude": 79.128838
+          },
+          "Ahmedabad": {
+            "latitude": 23.0225,
+            "longitude": 72.5714
+          },
+          "Bhavnagar": {
+            "latitude": 21.7702,
+            "longitude": 72.1429
+          },
+          "Gandhinagar": {
+            "latitude": 23.2156,
+            "longitude": 72.6369
+          },
+          "Sirohi": {
+            "latitude": 24.882618,
+            "longitude": 72.858894
+          },
+          "Patan": {
+            "latitude": 23.849,
+            "longitude": 72.127
+          },
+          "Mehsana": {
+            "latitude": 23.586761,
+            "longitude": 72.369949
+          },
+          "Sabarkantha": {
+            "latitude": 23.6036,
+            "longitude": 72.9639
+          },
+          "Vadodara": {
+            "latitude": 22.3107,
+            "longitude": 73.1926
+          }
+        }
+      }
+    ],
+    "panels": [
+      "tree",
+      "map",
+      "entropy"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000009",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "value": 1927.408,
+        "confidence": [
+          1857.589,
+          1957.078
+        ]
+      },
+      "district": {
+        "value": "Karimnagar",
+        "confidence": {
+          "Karimnagar": 0.154,
+          "Vadodara": 0.153,
+          "Nagpur": 0.147,
+          "Warangal": 0.138,
+          "Panchmahal": 0.114,
+          "Gandhinagar": 0.0903,
+          "Banaskantha": 0.0881,
+          "Sirohi": 0.0695,
+          "Bhavnagar": 0.0163,
+          "Ahmedabad": 0.0161,
+          "Sabarkantha": 0.00249,
+          "Dungarpur": 0.00241,
+          "Aravalli": 0.00241,
+          "Mehsana": 0.00227,
+          "Patan": 0.00209,
+          "Kheda": 0.00198
+        },
+        "entropy": 2.211
+      },
+      "state": {
+        "value": "Gujarat",
+        "confidence": {
+          "Gujarat": 0.707,
+          "Andhra Pradesh": 0.195,
+          "Maharashtra": 0.0659,
+          "Rajasthan": 0.0321
+        },
+        "entropy": 0.853
+      },
+      "date": {
+        "value": "2026-07-26"
+      },
+      "year": {
+        "value": "2026",
+        "confidence": {
+          "2026": 0.675,
+          "2007": 0.182,
+          "2003": 0.0645,
+          "2004": 0.0645,
+          "2024": 0.0138
+        },
+        "entropy": 0.988
+      }
+    },
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "name": "NODE_0000003",
+        "node_attrs": {
+          "div": 0.0108993,
+          "num_date": {
+            "value": 1992.709,
+            "confidence": [
+              1980.291,
+              1999.155
+            ]
+          },
+          "district": {
+            "value": "Nagpur",
+            "confidence": {
+              "Nagpur": 0.487,
+              "Warangal": 0.454,
+              "Karimnagar": 0.012,
+              "Vadodara": 0.012,
+              "Panchmahal": 0.00906,
+              "Gandhinagar": 0.00701,
+              "Banaskantha": 0.007,
+              "Sirohi": 0.00558,
+              "Bhavnagar": 0.00157,
+              "Ahmedabad": 0.00155
+            },
+            "entropy": 1.0
+          },
+          "state": {
+            "value": "Andhra Pradesh",
+            "confidence": {
+              "Andhra Pradesh": 0.536,
+              "Maharashtra": 0.395,
+              "Gujarat": 0.0611,
+              "Rajasthan": 0.00789
+            },
+            "entropy": 0.91
+          },
+          "date": {
+            "value": "2007"
+          },
+          "year": {
+            "value": "2007",
+            "confidence": {
+              "2007": 0.995,
+              "2026": 0.00395
+            },
+            "entropy": 0.0359
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "T173C",
+              "T257A",
+              "T281G",
+              "G314A",
+              "C347T",
+              "A356G",
+              "T407C",
+              "C452T",
+              "G515A",
+              "G587A",
+              "C713T",
+              "C740T",
+              "A827G",
+              "T843C",
+              "T857C",
+              "A1154G",
+              "G1181A",
+              "G1217A",
+              "G1241A",
+              "G1319A",
+              "A1428T",
+              "C1510T",
+              "G1548A",
+              "A1623G",
+              "G1697A",
+              "C1722T",
+              "C1813T",
+              "G1872A",
+              "C1878T",
+              "T1881C",
+              "C1911A",
+              "C1989T",
+              "A2145G",
+              "C2169T",
+              "T2172G",
+              "C2232T",
+              "T2269C",
+              "T2440C",
+              "C2491A",
+              "A2575G",
+              "T2638C",
+              "G2665A",
+              "T2951C",
+              "A3006G",
+              "C3069T",
+              "T3100C",
+              "C3244T",
+              "A3326C",
+              "A3409C",
+              "T3556A",
+              "G3901T",
+              "G3946A",
+              "G4009A",
+              "A4075G",
+              "A4096T",
+              "G4186A",
+              "G4683T",
+              "T4700C",
+              "A4705G",
+              "C4749A",
+              "T4853C",
+              "G4876A",
+              "C5008T",
+              "A5168G",
+              "C5251T",
+              "C5405T",
+              "T5569G",
+              "G5731A",
+              "T5735C",
+              "G5776T",
+              "C5788T",
+              "T5917G",
+              "A5923C",
+              "A5984G",
+              "G5988A",
+              "A6079G",
+              "C6094T",
+              "C6139T",
+              "A6277G",
+              "T6280C",
+              "G6301A",
+              "A6313G",
+              "T6415C",
+              "T6451C",
+              "C6482T",
+              "T6526C",
+              "G6580A",
+              "A6865C",
+              "T6913C",
+              "G7015A",
+              "A7177G",
+              "C7207T",
+              "C7270T",
+              "C7282T",
+              "T7309C",
+              "A7533G",
+              "C7766A",
+              "A7882C",
+              "A7909G",
+              "A8029T",
+              "G8149A",
+              "A8200G",
+              "T8276C",
+              "A8704G",
+              "A8733G",
+              "A9067G",
+              "G9076A",
+              "T9079C",
+              "G9082A",
+              "G9094A",
+              "G9142A",
+              "T9221C",
+              "C9262T",
+              "T9583C",
+              "C9628T",
+              "G10327A",
+              "G10417A",
+              "C10502T",
+              "C10543T",
+              "C10552T",
+              "T10627G",
+              "T10732C",
+              "G10819A",
+              "A10966T",
+              "C10972T",
+              "G11026A"
+            ],
+            "G": [
+              "T6I"
+            ],
+            "L": [
+              "I136V",
+              "T408A",
+              "S409N",
+              "K924R",
+              "N1324S"
+            ],
+            "P": [
+              "G112E"
+            ]
+          },
+          "labels": {
+            "aa": "G: T6I; L: I136V, T408A, S409N, K924R, N1324S; P: G112E"
+          }
+        },
+        "children": [
+          {
+            "name": "GU190711.1",
+            "node_attrs": {
+              "div": 0.0128829,
+              "num_date": {
+                "value": 2007.001,
+                "confidence": [
+                  2007.001,
+                  2007.887
+                ],
+                "inferred": true,
+                "raw_value": "2007"
+              },
+              "id": {
+                "value": "GU190711.1"
+              },
+              "district": {
+                "value": "Nagpur",
+                "confidence": {
+                  "Nagpur": 1.0
+                },
+                "entropy": -1e-12
+              },
+              "state": {
+                "value": "Maharashtra",
+                "confidence": {
+                  "Maharashtra": 1.0
+                },
+                "entropy": -1e-12
+              },
+              "country": {
+                "value": "India"
+              },
+              "date": {
+                "value": "2007"
+              },
+              "year": {
+                "value": "2007",
+                "confidence": {
+                  "2007": 1.0
+                },
+                "entropy": -1e-12
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "G197A",
+                  "T881G",
+                  "C1160T",
+                  "C1809T",
+                  "T1890C",
+                  "G2603A",
+                  "T3118C",
+                  "A4560G",
+                  "A5107T",
+                  "G5387A",
+                  "A5560G",
+                  "A6574G",
+                  "A6835G",
+                  "C7141T",
+                  "A9121G",
+                  "A9670G",
+                  "C9904T",
+                  "T9953A",
+                  "C10096T",
+                  "C10405T",
+                  "C10581T",
+                  "G10737A"
+                ],
+                "G": [
+                  "K503R"
+                ],
+                "L": [
+                  "E115D",
+                  "V209I",
+                  "W1731R",
+                  "S1940L",
+                  "R1992H"
+                ],
+                "M": [
+                  "D97N"
+                ]
+              },
+              "labels": {
+                "aa": "G: K503R; L: E115D, V209I, W1731R, S1940L, R1992H; M: D97N"
+              }
+            }
+          },
+          {
+            "name": "GU212857.1",
+            "node_attrs": {
+              "div": 0.0138788,
+              "num_date": {
+                "value": 2007.999,
+                "confidence": [
+                  2007.124,
+                  2007.999
+                ],
+                "inferred": true,
+                "raw_value": "2007"
+              },
+              "id": {
+                "value": "GU212857.1"
+              },
+              "district": {
+                "value": "Warangal",
+                "confidence": {
+                  "Warangal": 1.0
+                },
+                "entropy": -1e-12
+              },
+              "state": {
+                "value": "Andhra Pradesh",
+                "confidence": {
+                  "Andhra Pradesh": 1.0
+                },
+                "entropy": -1e-12
+              },
+              "country": {
+                "value": "India"
+              },
+              "date": {
+                "value": "2007"
+              },
+              "year": {
+                "value": "2007",
+                "confidence": {
+                  "2007": 1.0
+                },
+                "entropy": -1e-12
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A40T",
+                  "G413A",
+                  "T554G",
+                  "G1737A",
+                  "G2085A",
+                  "A3229G",
+                  "T3322C",
+                  "G3430C",
+                  "C3481T",
+                  "G3898A",
+                  "G3994A",
+                  "T4105C",
+                  "A4109C",
+                  "G4387T",
+                  "T4519C",
+                  "C5305T",
+                  "T5311C",
+                  "G5711A",
+                  "C5721A",
+                  "C5971T",
+                  "A6319G",
+                  "A6716C",
+                  "A6829G",
+                  "A7414C",
+                  "T7417C",
+                  "A7564G",
+                  "G9088A",
+                  "T9733C",
+                  "G9763A",
+                  "G10840A",
+                  "G10895A",
+                  "A11023T",
+                  "A11051T"
+                ],
+                "L": [
+                  "A317T",
+                  "P320Q",
+                  "I652L",
+                  "G2045R"
+                ]
+              },
+              "labels": {
+                "aa": "L: A317T, P320Q, I652L, G2045R"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "name": "NODE_0000002",
+        "node_attrs": {
+          "div": 0.000360001,
+          "num_date": {
+            "value": 1930.016,
+            "confidence": [
+              1862.084,
+              1958.769
+            ]
+          },
+          "district": {
+            "value": "Karimnagar",
+            "confidence": {
+              "Karimnagar": 0.168,
+              "Vadodara": 0.167,
+              "Panchmahal": 0.124,
+              "Nagpur": 0.116,
+              "Warangal": 0.108,
+              "Gandhinagar": 0.0984,
+              "Banaskantha": 0.0959,
+              "Sirohi": 0.0756,
+              "Bhavnagar": 0.0174,
+              "Ahmedabad": 0.0171,
+              "Sabarkantha": 0.00222,
+              "Dungarpur": 0.00214,
+              "Aravalli": 0.00213,
+              "Mehsana": 0.00204,
+              "Patan": 0.00184,
+              "Kheda": 0.0017
+            },
+            "entropy": 2.211
+          },
+          "state": {
+            "value": "Gujarat",
+            "confidence": {
+              "Gujarat": 0.786,
+              "Andhra Pradesh": 0.157,
+              "Maharashtra": 0.0343,
+              "Rajasthan": 0.0233
+            },
+            "entropy": 0.683
+          },
+          "date": {
+            "value": "2026-07-26"
+          },
+          "year": {
+            "value": "2026",
+            "confidence": {
+              "2026": 0.748,
+              "2007": 0.111,
+              "2003": 0.0655,
+              "2004": 0.0655,
+              "2024": 0.00906
+            },
+            "entropy": 0.861
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "A1142G",
+              "C4864T",
+              "A5470G"
+            ]
+          }
+        },
+        "children": [
+          {
+            "name": "NODE_0000001",
+            "node_attrs": {
+              "div": 0.00460356,
+              "num_date": {
+                "value": 1953.449,
+                "confidence": [
+                  1913.51,
+                  1974.913
+                ]
+              },
+              "district": {
+                "value": "Karimnagar",
+                "confidence": {
+                  "Karimnagar": 0.285,
+                  "Vadodara": 0.284,
+                  "Panchmahal": 0.21,
+                  "Nagpur": 0.0466,
+                  "Warangal": 0.0435,
+                  "Gandhinagar": 0.0392,
+                  "Banaskantha": 0.0389,
+                  "Sirohi": 0.0305,
+                  "Bhavnagar": 0.00726,
+                  "Ahmedabad": 0.00717,
+                  "Sabarkantha": 0.00138,
+                  "Dungarpur": 0.00135,
+                  "Aravalli": 0.00135,
+                  "Mehsana": 0.00125,
+                  "Patan": 0.00117,
+                  "Kheda": 0.00114
+                },
+                "entropy": 1.804
+              },
+              "state": {
+                "value": "Gujarat",
+                "confidence": {
+                  "Gujarat": 0.823,
+                  "Andhra Pradesh": 0.154,
+                  "Maharashtra": 0.0123,
+                  "Rajasthan": 0.0109
+                },
+                "entropy": 0.552
+              },
+              "date": {
+                "value": "2003"
+              },
+              "year": {
+                "value": "2026",
+                "confidence": {
+                  "2026": 0.69,
+                  "2003": 0.125,
+                  "2004": 0.125,
+                  "2007": 0.0513,
+                  "2024": 0.00774
+                },
+                "entropy": 0.967
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "G428A",
+                  "T1136C",
+                  "G1614A",
+                  "C1893T",
+                  "G2632A",
+                  "A2959T",
+                  "T3488C",
+                  "T3505C",
+                  "A3517G",
+                  "C3889T",
+                  "T4234C",
+                  "G4438A",
+                  "C4496T",
+                  "C5008T",
+                  "A5137G",
+                  "G5152A",
+                  "T5269C",
+                  "G5329A",
+                  "A5392G",
+                  "A5551G",
+                  "A5737G",
+                  "C6223T",
+                  "A6241G",
+                  "A6520C",
+                  "G6943A",
+                  "C7048T",
+                  "G7402A",
+                  "G7807A",
+                  "A7924G",
+                  "G7970A",
+                  "A8086G",
+                  "A8095G",
+                  "G8278A",
+                  "A8377T",
+                  "G8584A",
+                  "A8680G",
+                  "T8791C",
+                  "A8929C",
+                  "T9073C",
+                  "G9142T",
+                  "T9421C",
+                  "T9601C",
+                  "C10415T",
+                  "C10426A",
+                  "T10516C"
+                ],
+                "L": [
+                  "E586D",
+                  "G1070S"
+                ]
+              },
+              "labels": {
+                "aa": "L: E586D, G1070S"
+              }
+            },
+            "children": [
+              {
+                "name": "AES2606005",
+                "node_attrs": {
+                  "div": 0.0165113,
+                  "num_date": {
+                    "value": 2026.478,
+                    "confidence": [
+                      2026.478,
+                      2026.478
+                    ],
+                    "inferred": false
+                  },
+                  "id": {
+                    "value": "AES2606005"
+                  },
+                  "district": {
+                    "value": "Panchmahal",
+                    "confidence": {
+                      "Panchmahal": 1.0
+                    },
+                    "entropy": -1e-12
+                  },
+                  "state": {
+                    "value": "Gujarat",
+                    "confidence": {
+                      "Gujarat": 1.0
+                    },
+                    "entropy": -1e-12
+                  },
+                  "country": {
+                    "value": "India"
+                  },
+                  "date": {
+                    "value": "2026-06-24"
+                  },
+                  "year": {
+                    "value": "2026",
+                    "confidence": {
+                      "2026": 1.0
+                    },
+                    "entropy": -1e-12
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A320C",
+                      "C338T",
+                      "T380C",
+                      "C635T",
+                      "A827C",
+                      "C953G",
+                      "C975T",
+                      "T1022C",
+                      "C1028T",
+                      "C1040T",
+                      "G1217A",
+                      "T1235C",
+                      "C1325T",
+                      "G1461A",
+                      "G1641A",
+                      "G1696A",
+                      "A1715G",
+                      "T1786C",
+                      "G1794A",
+                      "C1809T",
+                      "C1971T",
+                      "C2049T",
+                      "T2079C",
+                      "A2178C",
+                      "A2245C",
+                      "C2295T",
+                      "A2581G",
+                      "A2647C",
+                      "A2731G",
+                      "C2785T",
+                      "G2938T",
+                      "A3071C",
+                      "A3163G",
+                      "A3217G",
+                      "A3229G",
+                      "T3502C",
+                      "C3529T",
+                      "T3922G",
+                      "G3973A",
+                      "G3985A",
+                      "A4162G",
+                      "T4303G",
+                      "A4312G",
+                      "C4399T",
+                      "T4456C",
+                      "G4492A",
+                      "A4501G",
+                      "A4566G",
+                      "G4588A",
+                      "A4739T",
+                      "G4822A",
+                      "C4870T",
+                      "C4879T",
+                      "G4903A",
+                      "G5011A",
+                      "T5049C",
+                      "A5059G",
+                      "C5089T",
+                      "T5197C",
+                      "C5320T",
+                      "T5403C",
+                      "T5631C",
+                      "A5675C",
+                      "A5698G",
+                      "G5711A",
+                      "G5731A",
+                      "C5788T",
+                      "G5929A",
+                      "A5986G",
+                      "C6011A",
+                      "T6052C",
+                      "A6115G",
+                      "C6181T",
+                      "G6184A",
+                      "G6337A",
+                      "T6388C",
+                      "G6406A",
+                      "C6418T",
+                      "A6487G",
+                      "T6532A",
+                      "C6718A",
+                      "G6739T",
+                      "A6880G",
+                      "C6919T",
+                      "T7057C",
+                      "G7066A",
+                      "C7117T",
+                      "G7291A",
+                      "C7336T",
+                      "G7681A",
+                      "T7739C",
+                      "C7822A",
+                      "C7945T",
+                      "T7957C",
+                      "T8041C",
+                      "A8143G",
+                      "T8158C",
+                      "T8224C",
+                      "C8422T",
+                      "C8500T",
+                      "C8593T",
+                      "G8659A",
+                      "T8836C",
+                      "C8896T",
+                      "A8917G",
+                      "G9058A",
+                      "G9094A",
+                      "T9157C",
+                      "G9280A",
+                      "A9691G",
+                      "G9745A",
+                      "T9769C",
+                      "C10096T",
+                      "T10144G",
+                      "A10159C",
+                      "T10165C",
+                      "A10181G",
+                      "C10379T",
+                      "A10381G",
+                      "T10459C",
+                      "T10682C",
+                      "G10737A",
+                      "C10846T",
+                      "T10891C",
+                      "C10903T",
+                      "A11086G",
+                      "G11095T"
+                    ],
+                    "G": [
+                      "I7L",
+                      "D290E",
+                      "K505R"
+                    ],
+                    "L": [
+                      "M96T",
+                      "V214A",
+                      "L290P",
+                      "A317T",
+                      "Q659H",
+                      "S1794R",
+                      "S1807G",
+                      "F1974L",
+                      "R1992H"
+                    ],
+                    "P": [
+                      "G112R",
+                      "K118R"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "G: I7L, D290E, K505R; L: M96T, V214A, L290P, A317T, Q659H, S1794R, S1807G, F1974L, R1992H; P: G112R, K118R"
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000000",
+                "node_attrs": {
+                  "div": 0.00568393,
+                  "num_date": {
+                    "value": 1960.764,
+                    "confidence": [
+                      1925.667,
+                      1978.823
+                    ]
+                  },
+                  "district": {
+                    "value": "Karimnagar",
+                    "confidence": {
+                      "Karimnagar": 0.345,
+                      "Vadodara": 0.344,
+                      "Panchmahal": 0.154,
+                      "Nagpur": 0.0329,
+                      "Warangal": 0.0307,
+                      "Gandhinagar": 0.0277,
+                      "Banaskantha": 0.0276,
+                      "Sirohi": 0.0216,
+                      "Bhavnagar": 0.00527,
+                      "Ahmedabad": 0.0052,
+                      "Sabarkantha": 0.00116,
+                      "Dungarpur": 0.00114,
+                      "Aravalli": 0.00114,
+                      "Mehsana": 0.00105
+                    },
+                    "entropy": 1.622
+                  },
+                  "state": {
+                    "value": "Gujarat",
+                    "confidence": {
+                      "Gujarat": 0.804,
+                      "Andhra Pradesh": 0.176,
+                      "Maharashtra": 0.0106,
+                      "Rajasthan": 0.01
+                    },
+                    "entropy": 0.576
+                  },
+                  "date": {
+                    "value": "2003"
+                  },
+                  "year": {
+                    "value": "2026",
+                    "confidence": {
+                      "2026": 0.549,
+                      "2003": 0.2,
+                      "2004": 0.2,
+                      "2007": 0.0411,
+                      "2024": 0.00916
+                    },
+                    "entropy": 1.147
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G113A",
+                      "A1839G",
+                      "A2007G",
+                      "T2073C",
+                      "A2254C",
+                      "C2458A",
+                      "T2470C",
+                      "T4051C",
+                      "A6708G",
+                      "G6709A",
+                      "G9784A",
+                      "G10576A",
+                      "A11023T"
+                    ],
+                    "L": [
+                      "K649R"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "L: K649R"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "NC_020805.1",
+                    "node_attrs": {
+                      "div": 0.0120159,
+                      "num_date": {
+                        "value": 2004.001,
+                        "confidence": [
+                          2004.001,
+                          2004.893
+                        ],
+                        "inferred": true,
+                        "raw_value": "2004"
+                      },
+                      "id": {
+                        "value": "NC_020805.1"
+                      },
+                      "district": {
+                        "value": "Vadodara",
+                        "confidence": {
+                          "Vadodara": 1.0
+                        },
+                        "entropy": -1e-12
+                      },
+                      "state": {
+                        "value": "Gujarat",
+                        "confidence": {
+                          "Gujarat": 1.0
+                        },
+                        "entropy": -1e-12
+                      },
+                      "country": {
+                        "value": "India"
+                      },
+                      "date": {
+                        "value": "2004"
+                      },
+                      "year": {
+                        "value": "2004",
+                        "confidence": {
+                          "2004": 1.0
+                        },
+                        "entropy": -1e-12
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A37C",
+                          "A155G",
+                          "C338T",
+                          "G401A",
+                          "G464A",
+                          "T483C",
+                          "G737A",
+                          "C890T",
+                          "T1022C",
+                          "C1028T",
+                          "G1761C",
+                          "G1812A",
+                          "C1911A",
+                          "G2025A",
+                          "G2166C",
+                          "G2671A",
+                          "T2951C",
+                          "A3101G",
+                          "T3175C",
+                          "A3253C",
+                          "A3352G",
+                          "C3706T",
+                          "G4012T",
+                          "T4303G",
+                          "T4653C",
+                          "C4664T",
+                          "A4674C",
+                          "T4897C",
+                          "G4916A",
+                          "A5005G",
+                          "C5320T",
+                          "C5386T",
+                          "A5654G",
+                          "A5884C",
+                          "G6217A",
+                          "A6271C",
+                          "T7057C",
+                          "G7222A",
+                          "T7234C",
+                          "G7264C",
+                          "A7360G",
+                          "T7438C",
+                          "T7714G",
+                          "G7756A",
+                          "C7822A",
+                          "G7843A",
+                          "T8041C",
+                          "G8218A",
+                          "G8347A",
+                          "A8429C",
+                          "T8506C",
+                          "C8608T",
+                          "C8650A",
+                          "G8656A",
+                          "A8677G",
+                          "A9004G",
+                          "C9184T",
+                          "A9310G",
+                          "T9361C",
+                          "G9469A",
+                          "C9640T",
+                          "T9676C",
+                          "T9769C",
+                          "G10021A",
+                          "A10258G",
+                          "A10399C",
+                          "C10846T",
+                          "C10894T"
+                        ],
+                        "G": [
+                          "T17A"
+                        ],
+                        "L": [
+                          "D52N",
+                          "I298V"
+                        ],
+                        "N": [
+                          "F140L"
+                        ],
+                        "P": [
+                          "M221I"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "G: T17A; L: D52N, I298V; N: F140L; P: M221I"
+                      }
+                    }
+                  },
+                  {
+                    "name": "GU212858.1",
+                    "node_attrs": {
+                      "div": 0.0140172,
+                      "num_date": {
+                        "value": 2003.999,
+                        "confidence": [
+                          2003.12,
+                          2003.999
+                        ],
+                        "inferred": true,
+                        "raw_value": "2003"
+                      },
+                      "id": {
+                        "value": "GU212858.1"
+                      },
+                      "district": {
+                        "value": "Karimnagar",
+                        "confidence": {
+                          "Karimnagar": 1.0
+                        },
+                        "entropy": -1e-12
+                      },
+                      "state": {
+                        "value": "Andhra Pradesh",
+                        "confidence": {
+                          "Andhra Pradesh": 1.0
+                        },
+                        "entropy": -1e-12
+                      },
+                      "country": {
+                        "value": "India"
+                      },
+                      "date": {
+                        "value": "2003"
+                      },
+                      "year": {
+                        "value": "2003",
+                        "confidence": {
+                          "2003": 1.0
+                        },
+                        "entropy": -1e-12
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T173C",
+                          "G197A",
+                          "T230C",
+                          "G248A",
+                          "T335G",
+                          "C341T",
+                          "C497T",
+                          "G1697A",
+                          "C1816T",
+                          "C1989T",
+                          "T2003C",
+                          "G2016A",
+                          "G2170A",
+                          "C2280T",
+                          "C2295T",
+                          "T2437C",
+                          "A2872G",
+                          "G2878A",
+                          "T3001C",
+                          "A3171G",
+                          "C3412T",
+                          "C3847A",
+                          "C3970T",
+                          "G3994A",
+                          "C4246A",
+                          "C4322G",
+                          "G4387A",
+                          "T4402C",
+                          "A4676G",
+                          "A4720G",
+                          "C4737T",
+                          "A4742G",
+                          "A5085T",
+                          "G5177A",
+                          "G5233A",
+                          "T5302C",
+                          "C5305T",
+                          "A5347G",
+                          "C5365T",
+                          "A5558C",
+                          "A5599G",
+                          "C5611T",
+                          "G5632A",
+                          "T5927C",
+                          "C6133T",
+                          "G6295A",
+                          "A6319G",
+                          "C6355T",
+                          "G6424A",
+                          "C6506T",
+                          "C6517T",
+                          "C6616T",
+                          "T6809C",
+                          "C6838T",
+                          "A6892G",
+                          "G6910A",
+                          "A7084G",
+                          "A7120G",
+                          "T7258C",
+                          "A7306G",
+                          "C7345T",
+                          "A7666G",
+                          "G7675C",
+                          "T7678C",
+                          "T7750C",
+                          "C8083T",
+                          "C8110T",
+                          "C8164T",
+                          "T8224C",
+                          "C8257T",
+                          "T8276C",
+                          "A8281G",
+                          "A8287G",
+                          "G8374A",
+                          "C8491T",
+                          "T8512C",
+                          "T8572C",
+                          "A8624G",
+                          "A8962G",
+                          "A8990C",
+                          "T9337C",
+                          "C9388T",
+                          "G9411A",
+                          "C9481A",
+                          "C9728T",
+                          "T9883C",
+                          "A10138G",
+                          "A10257G",
+                          "G10327A",
+                          "A10630G",
+                          "C10834T",
+                          "T11002C",
+                          "T11042C",
+                          "G11062A"
+                        ],
+                        "G": [
+                          "K40R",
+                          "L424V"
+                        ],
+                        "L": [
+                          "D108V",
+                          "V139I",
+                          "T1288A",
+                          "S1550N",
+                          "K1832R"
+                        ],
+                        "P": [
+                          "G112E",
+                          "V214A",
+                          "V270I"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "G: K40R, L424V; L: D108V, V139I, T1288A, S1550N, K1832R; P: G112E, V214A, V270I"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000004",
+            "node_attrs": {
+              "div": 0.00787639,
+              "num_date": {
+                "value": 1974.024,
+                "confidence": [
+                  1940.608,
+                  1992.257
+                ]
+              },
+              "district": {
+                "value": "Gandhinagar",
+                "confidence": {
+                  "Gandhinagar": 0.272,
+                  "Banaskantha": 0.259,
+                  "Sirohi": 0.205,
+                  "Bhavnagar": 0.0448,
+                  "Ahmedabad": 0.0441,
+                  "Karimnagar": 0.0406,
+                  "Vadodara": 0.0403,
+                  "Panchmahal": 0.0303,
+                  "Nagpur": 0.0279,
+                  "Warangal": 0.026,
+                  "Mehsana": 0.00226,
+                  "Sabarkantha": 0.00204,
+                  "Dungarpur": 0.00182,
+                  "Aravalli": 0.0018,
+                  "Patan": 0.00173,
+                  "Kheda": 0.00111
+                },
+                "entropy": 1.933
+              },
+              "state": {
+                "value": "Gujarat",
+                "confidence": {
+                  "Gujarat": 0.943,
+                  "Rajasthan": 0.0357,
+                  "Andhra Pradesh": 0.0176,
+                  "Maharashtra": 0.00394
+                },
+                "entropy": 0.267
+              },
+              "date": {
+                "value": "2026-07-26"
+              },
+              "year": {
+                "value": "2026",
+                "confidence": {
+                  "2026": 0.99,
+                  "2007": 0.00413,
+                  "2003": 0.00251,
+                  "2004": 0.00251
+                },
+                "entropy": 0.0685
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C8A",
+                  "A12C",
+                  "T19A",
+                  "T219C",
+                  "C269T",
+                  "T296G",
+                  "C638T",
+                  "C779T",
+                  "G833A",
+                  "T860C",
+                  "G1091A",
+                  "G1488A",
+                  "A1517C",
+                  "T1522C",
+                  "T1554C",
+                  "C1831A",
+                  "T2013C",
+                  "T2070C",
+                  "T2091C",
+                  "C2106T",
+                  "T2434C",
+                  "G2446A",
+                  "G2533A",
+                  "A2713G",
+                  "T2818C",
+                  "A3424G",
+                  "A3610C",
+                  "T3634C",
+                  "A3703G",
+                  "G3716T",
+                  "C3784T",
+                  "C3823T",
+                  "C4381T",
+                  "C4627T",
+                  "G4654A",
+                  "A4655G",
+                  "T4673A",
+                  "G4681A",
+                  "G4777A",
+                  "C4810T",
+                  "A5098G",
+                  "T5131G",
+                  "T5242C",
+                  "T5504C",
+                  "C5554T",
+                  "C5837T",
+                  "T5881C",
+                  "A5885G",
+                  "A6157G",
+                  "A6193T",
+                  "T6299C",
+                  "T6499G",
+                  "G6811A",
+                  "G6901A",
+                  "C6919T",
+                  "C7165A",
+                  "A7381C",
+                  "A8086C",
+                  "A8185G",
+                  "A8380G",
+                  "C8407T",
+                  "C8575T",
+                  "T8809C",
+                  "G9205A",
+                  "C9388G",
+                  "C9412T",
+                  "T9631G",
+                  "G9784A",
+                  "A10138G",
+                  "G10143T",
+                  "A10186G",
+                  "A10279G",
+                  "G10327A",
+                  "A10447C",
+                  "G10501A",
+                  "A10582G",
+                  "G10690A",
+                  "T10810C",
+                  "T10876C",
+                  "C10882T",
+                  "T11002C",
+                  "A11086G",
+                  "G11095T",
+                  "T11098C"
+                ],
+                "G": [
+                  "A222S"
+                ],
+                "L": [
+                  "S248P",
+                  "N375D",
+                  "S1794I"
+                ],
+                "P": [
+                  "E52A"
+                ]
+              },
+              "labels": {
+                "aa": "G: A222S; L: S248P, N375D, S1794I; P: E52A"
+              }
+            },
+            "children": [
+              {
+                "name": "AES2607152",
+                "node_attrs": {
+                  "div": 0.0160584,
+                  "num_date": {
+                    "value": 2026.566,
+                    "confidence": [
+                      2026.566,
+                      2026.566
+                    ],
+                    "inferred": false
+                  },
+                  "id": {
+                    "value": "AES2607152"
+                  },
+                  "district": {
+                    "value": "Banaskantha",
+                    "confidence": {
+                      "Banaskantha": 1.0
+                    },
+                    "entropy": -1e-12
+                  },
+                  "state": {
+                    "value": "Gujarat",
+                    "confidence": {
+                      "Gujarat": 1.0
+                    },
+                    "entropy": -1e-12
+                  },
+                  "country": {
+                    "value": "India"
+                  },
+                  "date": {
+                    "value": "2026-07-26"
+                  },
+                  "year": {
+                    "value": "2026",
+                    "confidence": {
+                      "2026": 1.0
+                    },
+                    "entropy": -1e-12
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C482A",
+                      "C518T",
+                      "T704C",
+                      "T938C",
+                      "A1007G",
+                      "T1151C",
+                      "T1223C",
+                      "A1265G",
+                      "G1614A",
+                      "A1623G",
+                      "T1659C",
+                      "C1759T",
+                      "G1872A",
+                      "C2311T",
+                      "C2404A",
+                      "C2767T",
+                      "G2857A",
+                      "A2959T",
+                      "A3169G",
+                      "C3445T",
+                      "C3658A",
+                      "G3679A",
+                      "C3840A",
+                      "G3898A",
+                      "T3910G",
+                      "C3940T",
+                      "G3943A",
+                      "G3961A",
+                      "T3971C",
+                      "G4138A",
+                      "G4285A",
+                      "T4402C",
+                      "A4777C",
+                      "T5113C",
+                      "C5320A",
+                      "G5492A",
+                      "C5500T",
+                      "A5539T",
+                      "G5584A",
+                      "T5671C",
+                      "G5692T",
+                      "G5730A",
+                      "A5794G",
+                      "C6010T",
+                      "A6154C",
+                      "A6238G",
+                      "C6355T",
+                      "G6424T",
+                      "T6592C",
+                      "T6658C",
+                      "T6745C",
+                      "A6835G",
+                      "C6982T",
+                      "T7042G",
+                      "T7072A",
+                      "T7129C",
+                      "G7153A",
+                      "C7412A",
+                      "G7681A",
+                      "C7900T",
+                      "G7921A",
+                      "A7964G",
+                      "T8137C",
+                      "G8149A",
+                      "G8218A",
+                      "G8431A",
+                      "T8464C",
+                      "T8527C",
+                      "C8605T",
+                      "T8737C",
+                      "T8828C",
+                      "T8833C",
+                      "A8941C",
+                      "T8965A",
+                      "T9028C",
+                      "A9493G",
+                      "C9538T",
+                      "T9739C",
+                      "A9760G",
+                      "G10003A",
+                      "G10087A",
+                      "A10093G",
+                      "G10138T",
+                      "T10459C",
+                      "C10471T",
+                      "G10737A",
+                      "A10763C",
+                      "T10771C",
+                      "C10890T"
+                    ],
+                    "G": [
+                      "T263N"
+                    ],
+                    "L": [
+                      "D244N",
+                      "R323K",
+                      "I1068V",
+                      "R1992H",
+                      "K2001Q",
+                      "T2043I"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "G: T263N; L: D244N, R323K, I1068V, R1992H, K2001Q, T2043I"
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000005",
+                "node_attrs": {
+                  "div": 0.00904686,
+                  "num_date": {
+                    "value": 1982.307,
+                    "confidence": [
+                      1951.968,
+                      1997.318
+                    ]
+                  },
+                  "district": {
+                    "value": "Gandhinagar",
+                    "confidence": {
+                      "Gandhinagar": 0.345,
+                      "Sirohi": 0.259,
+                      "Banaskantha": 0.169,
+                      "Bhavnagar": 0.0569,
+                      "Ahmedabad": 0.056,
+                      "Karimnagar": 0.0256,
+                      "Vadodara": 0.0254,
+                      "Panchmahal": 0.0192,
+                      "Nagpur": 0.0176,
+                      "Warangal": 0.0164,
+                      "Mehsana": 0.00241,
+                      "Sabarkantha": 0.00197,
+                      "Patan": 0.00173,
+                      "Dungarpur": 0.00169,
+                      "Aravalli": 0.00167
+                    },
+                    "entropy": 1.809
+                  },
+                  "state": {
+                    "value": "Gujarat",
+                    "confidence": {
+                      "Gujarat": 0.937,
+                      "Rajasthan": 0.0495,
+                      "Andhra Pradesh": 0.0109,
+                      "Maharashtra": 0.00264
+                    },
+                    "entropy": 0.275
+                  },
+                  "date": {
+                    "value": "2026-07-26"
+                  },
+                  "year": {
+                    "value": "2026",
+                    "confidence": {
+                      "2026": 0.997,
+                      "2007": 0.00103
+                    },
+                    "entropy": 0.0211
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T629C",
+                      "T1782C",
+                      "C2773T",
+                      "C4420T",
+                      "T6808C",
+                      "A6907G",
+                      "C7696T",
+                      "A7882G",
+                      "T8140A",
+                      "C8756T",
+                      "C8878T",
+                      "G10911A",
+                      "C10972T"
+                    ],
+                    "L": [
+                      "S2050N"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "L: S2050N"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "AES2607045",
+                    "node_attrs": {
+                      "div": 0.0153882,
+                      "num_date": {
+                        "value": 2026.53,
+                        "confidence": [
+                          2026.53,
+                          2026.53
+                        ],
+                        "inferred": false
+                      },
+                      "id": {
+                        "value": "AES2607045"
+                      },
+                      "district": {
+                        "value": "Sirohi",
+                        "confidence": {
+                          "Sirohi": 1.0
+                        },
+                        "entropy": -1e-12
+                      },
+                      "state": {
+                        "value": "Rajasthan",
+                        "confidence": {
+                          "Rajasthan": 1.0
+                        },
+                        "entropy": -1e-12
+                      },
+                      "country": {
+                        "value": "India"
+                      },
+                      "date": {
+                        "value": "2026-07-13"
+                      },
+                      "year": {
+                        "value": "2026",
+                        "confidence": {
+                          "2026": 1.0
+                        },
+                        "entropy": -1e-12
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T173C",
+                          "G185A",
+                          "A287G",
+                          "C518T",
+                          "T656G",
+                          "G761C",
+                          "A1025C",
+                          "G1049A",
+                          "C1203T",
+                          "C1208T",
+                          "T1223C",
+                          "C1416T",
+                          "G1698A",
+                          "C1893T",
+                          "A2040G",
+                          "A2362G",
+                          "A2483G",
+                          "A2530G",
+                          "C2767A",
+                          "A2813G",
+                          "T2815C",
+                          "G2935A",
+                          "T3454C",
+                          "T3619A",
+                          "C3808T",
+                          "A4156G",
+                          "G4414A",
+                          "T4417A",
+                          "G4561A",
+                          "G4759A",
+                          "T4910C",
+                          "T4924C",
+                          "C5008T",
+                          "A5083G",
+                          "G5122A",
+                          "C5170T",
+                          "C5629T",
+                          "A5737G",
+                          "A6055G",
+                          "T6259C",
+                          "T6292C",
+                          "C6299T",
+                          "G6469A",
+                          "C6697T",
+                          "T6712C",
+                          "T7060C",
+                          "T7126C",
+                          "T7258C",
+                          "T7364C",
+                          "A7390G",
+                          "G7570A",
+                          "T7939C",
+                          "G7981A",
+                          "C8027T",
+                          "G8165A",
+                          "G8209A",
+                          "G8239A",
+                          "T8452C",
+                          "T8794C",
+                          "C8848T",
+                          "C9427T",
+                          "G9553A",
+                          "C9640T",
+                          "G9682A",
+                          "G9973A",
+                          "A10025C",
+                          "A10108C",
+                          "C10420T",
+                          "C10657T",
+                          "A10762G",
+                          "T10828C"
+                        ],
+                        "L": [
+                          "G1135S"
+                        ],
+                        "M": [
+                          "T57A",
+                          "I167V"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "L: G1135S; M: T57A, I167V"
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000006",
+                    "node_attrs": {
+                      "div": 0.0129257,
+                      "num_date": {
+                        "value": 2002.164,
+                        "confidence": [
+                          1983.653,
+                          2008.636
+                        ]
+                      },
+                      "district": {
+                        "value": "Gandhinagar",
+                        "confidence": {
+                          "Gandhinagar": 0.674,
+                          "Bhavnagar": 0.116,
+                          "Ahmedabad": 0.114,
+                          "Sirohi": 0.0414,
+                          "Banaskantha": 0.0267,
+                          "Karimnagar": 0.00399,
+                          "Vadodara": 0.00396,
+                          "Mehsana": 0.00357,
+                          "Panchmahal": 0.00303,
+                          "Nagpur": 0.00276,
+                          "Warangal": 0.00259,
+                          "Patan": 0.00216,
+                          "Sabarkantha": 0.00206,
+                          "Dungarpur": 0.00146,
+                          "Aravalli": 0.00141
+                        },
+                        "entropy": 1.152
+                      },
+                      "state": {
+                        "value": "Gujarat",
+                        "confidence": {
+                          "Gujarat": 0.999
+                        },
+                        "entropy": 0.00678
+                      },
+                      "date": {
+                        "value": "2026-07-26"
+                      },
+                      "year": {
+                        "value": "2026",
+                        "confidence": {
+                          "2026": 1.0
+                        },
+                        "entropy": 0.000633
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T218C",
+                          "A644G",
+                          "C1085T",
+                          "G1181A",
+                          "A1926G",
+                          "C2999A",
+                          "C3091T",
+                          "T3286C",
+                          "C3487T",
+                          "T3905G",
+                          "T4072C",
+                          "G4228A",
+                          "C4306T",
+                          "T4516C",
+                          "A4633G",
+                          "C4976T",
+                          "T5236C",
+                          "A5377G",
+                          "A6085G",
+                          "A6178G",
+                          "A6286G",
+                          "T6562C",
+                          "C6706T",
+                          "C6925A",
+                          "T7000C",
+                          "G7222A",
+                          "G7843A",
+                          "C7936T",
+                          "G7947A",
+                          "C8317T",
+                          "A8320G",
+                          "A8639G",
+                          "T8836C",
+                          "T8965C",
+                          "T9022C",
+                          "A9667C",
+                          "A9727C",
+                          "T10516C",
+                          "T10612C",
+                          "T10666C",
+                          "C10888A",
+                          "C10927T"
+                        ],
+                        "G": [
+                          "S285A"
+                        ],
+                        "L": [
+                          "R1062K",
+                          "I1293V"
+                        ],
+                        "M": [
+                          "H229N"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "G: S285A; L: R1062K, I1293V; M: H229N"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "NODE_0000007",
+                        "node_attrs": {
+                          "div": 0.0134658,
+                          "num_date": {
+                            "value": 2005.602,
+                            "confidence": [
+                              1988.325,
+                              2010.946
+                            ]
+                          },
+                          "district": {
+                            "value": "Gandhinagar",
+                            "confidence": {
+                              "Gandhinagar": 0.416,
+                              "Bhavnagar": 0.263,
+                              "Ahmedabad": 0.262,
+                              "Sirohi": 0.0245,
+                              "Banaskantha": 0.0158,
+                              "Karimnagar": 0.00254,
+                              "Vadodara": 0.0025,
+                              "Mehsana": 0.00227,
+                              "Panchmahal": 0.00197,
+                              "Nagpur": 0.00181,
+                              "Warangal": 0.00171,
+                              "Sabarkantha": 0.0015,
+                              "Patan": 0.00145,
+                              "Dungarpur": 0.00115,
+                              "Aravalli": 0.00112
+                            },
+                            "entropy": 1.34
+                          },
+                          "state": {
+                            "value": "Gujarat",
+                            "confidence": {
+                              "Gujarat": 0.999
+                            },
+                            "entropy": 0.00493
+                          },
+                          "date": {
+                            "value": "2026-07-26"
+                          },
+                          "year": {
+                            "value": "2026",
+                            "confidence": {
+                              "2026": 1.0
+                            },
+                            "entropy": 0.00138
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C482A",
+                              "C2300T",
+                              "T3586C",
+                              "G5020C",
+                              "G6781A",
+                              "G10136T"
+                            ],
+                            "L": [
+                              "A1792S"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "L: A1792S"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "AES2607047",
+                            "node_attrs": {
+                              "div": 0.0165317,
+                              "num_date": {
+                                "value": 2026.536,
+                                "confidence": [
+                                  2026.536,
+                                  2026.536
+                                ],
+                                "inferred": false
+                              },
+                              "id": {
+                                "value": "AES2607047"
+                              },
+                              "district": {
+                                "value": "Ahmedabad",
+                                "confidence": {
+                                  "Ahmedabad": 1.0
+                                },
+                                "entropy": -1e-12
+                              },
+                              "state": {
+                                "value": "Gujarat",
+                                "confidence": {
+                                  "Gujarat": 1.0
+                                },
+                                "entropy": -1e-12
+                              },
+                              "country": {
+                                "value": "India"
+                              },
+                              "date": {
+                                "value": "2026-07-15"
+                              },
+                              "year": {
+                                "value": "2026",
+                                "confidence": {
+                                  "2026": 1.0
+                                },
+                                "entropy": -1e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A125G",
+                                  "A167C",
+                                  "A222G",
+                                  "T257C",
+                                  "A287G",
+                                  "T458C",
+                                  "T578C",
+                                  "T1352C",
+                                  "C1746T",
+                                  "T2073C",
+                                  "C2112T",
+                                  "A2145G",
+                                  "G2632A",
+                                  "C3046A",
+                                  "C3301T",
+                                  "C4243T",
+                                  "G5140A",
+                                  "C5272A",
+                                  "G5281A",
+                                  "T5344C",
+                                  "A5524G",
+                                  "G6085A",
+                                  "T6451C",
+                                  "G7099A",
+                                  "G8309A",
+                                  "A8938G",
+                                  "G8989A",
+                                  "A9092C",
+                                  "T9202C",
+                                  "A9351G",
+                                  "A9433G",
+                                  "A9526G",
+                                  "T9613C",
+                                  "A10099G"
+                                ],
+                                "L": [
+                                  "D1183N",
+                                  "K1530R"
+                                ],
+                                "N": [
+                                  "R53G"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "L: D1183N, K1530R; N: R53G"
+                              }
+                            }
+                          },
+                          {
+                            "name": "AES2607067",
+                            "node_attrs": {
+                              "div": 0.0178009,
+                              "num_date": {
+                                "value": 2026.516,
+                                "confidence": [
+                                  2026.516,
+                                  2026.516
+                                ],
+                                "inferred": false
+                              },
+                              "id": {
+                                "value": "AES2607067"
+                              },
+                              "district": {
+                                "value": "Bhavnagar",
+                                "confidence": {
+                                  "Bhavnagar": 1.0
+                                },
+                                "entropy": -1e-12
+                              },
+                              "state": {
+                                "value": "Gujarat",
+                                "confidence": {
+                                  "Gujarat": 1.0
+                                },
+                                "entropy": -1e-12
+                              },
+                              "country": {
+                                "value": "India"
+                              },
+                              "date": {
+                                "value": "2026-07-08"
+                              },
+                              "year": {
+                                "value": "2026",
+                                "confidence": {
+                                  "2026": 1.0
+                                },
+                                "entropy": -1e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A127G",
+                                  "A142G",
+                                  "A626G",
+                                  "A653G",
+                                  "C803T",
+                                  "C998T",
+                                  "A1004G",
+                                  "T1055C",
+                                  "C1522T",
+                                  "A2099G",
+                                  "T2124C",
+                                  "G2329A",
+                                  "A2644G",
+                                  "C2701A",
+                                  "A3313C",
+                                  "C3715T",
+                                  "T3781C",
+                                  "A4042G",
+                                  "A4163C",
+                                  "A4501G",
+                                  "T4647G",
+                                  "A4650C",
+                                  "T5090C",
+                                  "G5098A",
+                                  "C5104T",
+                                  "G5177A",
+                                  "G5218A",
+                                  "C5272T",
+                                  "G5293A",
+                                  "T5494C",
+                                  "A5704C",
+                                  "G5725A",
+                                  "A5872G",
+                                  "C6394T",
+                                  "C6562T",
+                                  "C6883T",
+                                  "A7732G",
+                                  "T7978A",
+                                  "A8563G",
+                                  "A8602G",
+                                  "C8827T",
+                                  "G9076T",
+                                  "G9265A",
+                                  "G9277A",
+                                  "T9592C",
+                                  "A9890G",
+                                  "T10318C",
+                                  "C10357T"
+                                ],
+                                "L": [
+                                  "V139I",
+                                  "E314D",
+                                  "T1710A"
+                                ],
+                                "N": [
+                                  "N21S",
+                                  "E26G"
+                                ],
+                                "P": [
+                                  "N246S"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "L: V139I, E314D, T1710A; N: N21S, E26G; P: N246S"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000008",
+                        "node_attrs": {
+                          "div": 0.0131956,
+                          "num_date": {
+                            "value": 2003.315,
+                            "confidence": [
+                              1986.785,
+                              2009.534
+                            ]
+                          },
+                          "district": {
+                            "value": "Gandhinagar",
+                            "confidence": {
+                              "Gandhinagar": 0.981,
+                              "Mehsana": 0.00531,
+                              "Patan": 0.00306,
+                              "Bhavnagar": 0.00288,
+                              "Sabarkantha": 0.00266,
+                              "Dungarpur": 0.00169,
+                              "Aravalli": 0.00162
+                            },
+                            "entropy": 0.13
+                          },
+                          "state": {
+                            "value": "Gujarat",
+                            "confidence": {
+                              "Gujarat": 1.0
+                            },
+                            "entropy": 2.98e-06
+                          },
+                          "date": {
+                            "value": "2026-07-26"
+                          },
+                          "year": {
+                            "value": "2026",
+                            "confidence": {
+                              "2026": 1.0
+                            },
+                            "entropy": 9.18e-08
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C3574T",
+                              "T7892C",
+                              "A8875G"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "AES2607017",
+                            "node_attrs": {
+                              "div": 0.0185286,
+                              "num_date": {
+                                "value": 2026.522,
+                                "confidence": [
+                                  2026.522,
+                                  2026.522
+                                ],
+                                "inferred": false
+                              },
+                              "id": {
+                                "value": "AES2607017"
+                              },
+                              "district": {
+                                "value": "Sabarkantha",
+                                "confidence": {
+                                  "Sabarkantha": 1.0
+                                },
+                                "entropy": -1e-12
+                              },
+                              "state": {
+                                "value": "Gujarat",
+                                "confidence": {
+                                  "Gujarat": 1.0
+                                },
+                                "entropy": -1e-12
+                              },
+                              "country": {
+                                "value": "India"
+                              },
+                              "date": {
+                                "value": "2026-07-10"
+                              },
+                              "year": {
+                                "value": "2026",
+                                "confidence": {
+                                  "2026": 1.0
+                                },
+                                "entropy": -1e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G392A",
+                                  "G530A",
+                                  "A605T",
+                                  "T1094G",
+                                  "C1425T",
+                                  "A2369G",
+                                  "A2443G",
+                                  "T2482C",
+                                  "G2494A",
+                                  "T2794C",
+                                  "T2951C",
+                                  "A2959T",
+                                  "A3101G",
+                                  "T3149C",
+                                  "G3670T",
+                                  "T3673C",
+                                  "T3835C",
+                                  "G4054A",
+                                  "C4246A",
+                                  "C4740T",
+                                  "C4791T",
+                                  "T4796C",
+                                  "A4809G",
+                                  "G5212A",
+                                  "C5242T",
+                                  "C5296T",
+                                  "C5386T",
+                                  "C5545T",
+                                  "C5926G",
+                                  "C6133T",
+                                  "A6166G",
+                                  "T6214C",
+                                  "C6445T",
+                                  "C6838T",
+                                  "A7789C",
+                                  "C7822T",
+                                  "G7987A",
+                                  "A8023G",
+                                  "A8089G",
+                                  "T8137C",
+                                  "A8743G",
+                                  "A8929G",
+                                  "T8932C",
+                                  "T9001C",
+                                  "G9277A",
+                                  "A9358G",
+                                  "A9406G",
+                                  "G9469A",
+                                  "C9898T",
+                                  "C9904T",
+                                  "T10010C",
+                                  "G10057A",
+                                  "T10195C",
+                                  "T10222C",
+                                  "C10267T",
+                                  "A10312C",
+                                  "G10582A",
+                                  "T10688C",
+                                  "T10744C"
+                                ],
+                                "G": [
+                                  "T17A"
+                                ],
+                                "L": [
+                                  "A10V",
+                                  "N16S",
+                                  "K1850N"
+                                ],
+                                "M": [
+                                  "M19V"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "G: T17A; L: A10V, N16S, K1850N; M: M19V"
+                              }
+                            }
+                          },
+                          {
+                            "name": "NODE_0000010",
+                            "node_attrs": {
+                              "div": 0.0153578,
+                              "num_date": {
+                                "value": 2014.14,
+                                "confidence": [
+                                  2004.214,
+                                  2018.121
+                                ]
+                              },
+                              "district": {
+                                "value": "Patan",
+                                "confidence": {
+                                  "Patan": 0.999,
+                                  "Gandhinagar": 0.00108
+                                },
+                                "entropy": 0.00896
+                              },
+                              "state": {
+                                "value": "Gujarat",
+                                "confidence": {
+                                  "Gujarat": 1.0
+                                },
+                                "entropy": 0.00184
+                              },
+                              "date": {
+                                "value": "2024-07-20"
+                              },
+                              "year": {
+                                "value": "2026",
+                                "confidence": {
+                                  "2026": 0.97,
+                                  "2024": 0.0288
+                                },
+                                "entropy": 0.141
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G113A",
+                                  "G248A",
+                                  "C285T",
+                                  "A356G",
+                                  "T857C",
+                                  "T929A",
+                                  "C1479T",
+                                  "T2303C",
+                                  "G2713A",
+                                  "T4291C",
+                                  "A4357G",
+                                  "G4633A",
+                                  "A5325G",
+                                  "C5712T",
+                                  "T5755C",
+                                  "C5995T",
+                                  "A6076C",
+                                  "T6712C",
+                                  "T7585C",
+                                  "T9592C",
+                                  "A9617C",
+                                  "C10102T",
+                                  "C10684T",
+                                  "C11098T"
+                                ],
+                                "L": [
+                                  "K188R",
+                                  "A317V"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "L: K188R, A317V"
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "PQ185534.2",
+                                "node_attrs": {
+                                  "div": 0.0174305,
+                                  "num_date": {
+                                    "value": 2024.551,
+                                    "confidence": [
+                                      2024.551,
+                                      2024.551
+                                    ],
+                                    "inferred": false
+                                  },
+                                  "id": {
+                                    "value": "PQ185534.2"
+                                  },
+                                  "district": {
+                                    "value": "Patan",
+                                    "confidence": {
+                                      "Patan": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "state": {
+                                    "value": "Gujarat",
+                                    "confidence": {
+                                      "Gujarat": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "country": {
+                                    "value": "India"
+                                  },
+                                  "date": {
+                                    "value": "2024-07-20"
+                                  },
+                                  "year": {
+                                    "value": "2024",
+                                    "confidence": {
+                                      "2024": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G552A",
+                                      "G1641A",
+                                      "G2354A",
+                                      "A2911G",
+                                      "C3445T",
+                                      "G4481A",
+                                      "C4597T",
+                                      "A4648G",
+                                      "C5482T",
+                                      "C5522T",
+                                      "A5984G",
+                                      "G6301A",
+                                      "A6328G",
+                                      "A6589G",
+                                      "T7204C",
+                                      "T7258C",
+                                      "A9253G",
+                                      "A9424C",
+                                      "T9445A",
+                                      "T9802C",
+                                      "G10078T",
+                                      "A10291G",
+                                      "C10810A"
+                                    ],
+                                    "G": [
+                                      "G477S"
+                                    ],
+                                    "L": [
+                                      "T408A"
+                                    ],
+                                    "M": [
+                                      "G14S"
+                                    ],
+                                    "N": [
+                                      "A163T"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "G: G477S; L: T408A; M: G14S; N: A163T"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "AES2607175",
+                                "node_attrs": {
+                                  "div": 0.0175201,
+                                  "num_date": {
+                                    "value": 2026.574,
+                                    "confidence": [
+                                      2026.574,
+                                      2026.574
+                                    ],
+                                    "inferred": false
+                                  },
+                                  "id": {
+                                    "value": "AES2607175"
+                                  },
+                                  "district": {
+                                    "value": "Patan",
+                                    "confidence": {
+                                      "Patan": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "state": {
+                                    "value": "Gujarat",
+                                    "confidence": {
+                                      "Gujarat": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "country": {
+                                    "value": "India"
+                                  },
+                                  "date": {
+                                    "value": "2026-07-29"
+                                  },
+                                  "year": {
+                                    "value": "2026",
+                                    "confidence": {
+                                      "2026": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T227C",
+                                      "G725T",
+                                      "C1133T",
+                                      "C1148T",
+                                      "G1205A",
+                                      "T1674G",
+                                      "C2308A",
+                                      "T2395C",
+                                      "C2491T",
+                                      "A3409G",
+                                      "A3547C",
+                                      "A3568G",
+                                      "T3766C",
+                                      "G3880A",
+                                      "C4378T",
+                                      "T4892C",
+                                      "G5218A",
+                                      "A5599G",
+                                      "G6085A",
+                                      "A6688G",
+                                      "A8179G",
+                                      "T9775C",
+                                      "G10094A",
+                                      "G10897A"
+                                    ],
+                                    "L": [
+                                      "S44P",
+                                      "D1778N"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "L: S44P, D1778N"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000011",
+                            "node_attrs": {
+                              "div": 0.0134655,
+                              "num_date": {
+                                "value": 2005.589,
+                                "confidence": [
+                                  1989.12,
+                                  2010.478
+                                ]
+                              },
+                              "district": {
+                                "value": "Gandhinagar",
+                                "confidence": {
+                                  "Gandhinagar": 0.984,
+                                  "Dungarpur": 0.00616,
+                                  "Mehsana": 0.00282,
+                                  "Patan": 0.00162,
+                                  "Bhavnagar": 0.00159,
+                                  "Sabarkantha": 0.00154
+                                },
+                                "entropy": 0.108
+                              },
+                              "state": {
+                                "value": "Gujarat",
+                                "confidence": {
+                                  "Gujarat": 0.974,
+                                  "Rajasthan": 0.0245,
+                                  "Andhra Pradesh": 0.00102
+                                },
+                                "entropy": 0.126
+                              },
+                              "date": {
+                                "value": "2026-07-26"
+                              },
+                              "year": {
+                                "value": "2026",
+                                "confidence": {
+                                  "2026": 1.0
+                                },
+                                "entropy": 0.00131
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C875T",
+                                  "C4894T",
+                                  "G5776A"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "AES2607130",
+                                "node_attrs": {
+                                  "div": 0.0176303,
+                                  "num_date": {
+                                    "value": 2026.563,
+                                    "confidence": [
+                                      2026.563,
+                                      2026.563
+                                    ],
+                                    "inferred": false
+                                  },
+                                  "id": {
+                                    "value": "AES2607130"
+                                  },
+                                  "district": {
+                                    "value": "Gandhinagar",
+                                    "confidence": {
+                                      "Gandhinagar": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "state": {
+                                    "value": "Gujarat",
+                                    "confidence": {
+                                      "Gujarat": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "country": {
+                                    "value": "India"
+                                  },
+                                  "date": {
+                                    "value": "2026-07-25"
+                                  },
+                                  "year": {
+                                    "value": "2026",
+                                    "confidence": {
+                                      "2026": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T701C",
+                                      "T950C",
+                                      "A1280G",
+                                      "T1515G",
+                                      "G1776A",
+                                      "A1866G",
+                                      "C2100T",
+                                      "A2509G",
+                                      "T2689C",
+                                      "T2905C",
+                                      "G2938A",
+                                      "A3547G",
+                                      "C3649T",
+                                      "T3778C",
+                                      "G4039A",
+                                      "G4066T",
+                                      "A4096C",
+                                      "T4411C",
+                                      "A4948G",
+                                      "G5131A",
+                                      "A5164G",
+                                      "C5323T",
+                                      "T5449C",
+                                      "A5602G",
+                                      "A5638G",
+                                      "T5752C",
+                                      "C6517T",
+                                      "C6697A",
+                                      "T7234C",
+                                      "T7271C",
+                                      "A7390G",
+                                      "T7480C",
+                                      "A8038G",
+                                      "T8674C",
+                                      "T8839A",
+                                      "C8866T",
+                                      "A9037G",
+                                      "C9481T",
+                                      "T9616C",
+                                      "T9820C",
+                                      "G9877A",
+                                      "C9925T",
+                                      "C10096A",
+                                      "A10465C",
+                                      "A10599T",
+                                      "G10885A"
+                                    ],
+                                    "L": [
+                                      "D1778E",
+                                      "D1946V"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "L: D1778E, D1946V"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "AES2607039",
+                                "node_attrs": {
+                                  "div": 0.0164617,
+                                  "num_date": {
+                                    "value": 2026.533,
+                                    "confidence": [
+                                      2026.533,
+                                      2026.533
+                                    ],
+                                    "inferred": false
+                                  },
+                                  "id": {
+                                    "value": "AES2607039"
+                                  },
+                                  "district": {
+                                    "value": "Dungarpur",
+                                    "confidence": {
+                                      "Dungarpur": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "state": {
+                                    "value": "Rajasthan",
+                                    "confidence": {
+                                      "Rajasthan": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "country": {
+                                    "value": "India"
+                                  },
+                                  "date": {
+                                    "value": "2026-07-14"
+                                  },
+                                  "year": {
+                                    "value": "2026",
+                                    "confidence": {
+                                      "2026": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C117T",
+                                      "G593A",
+                                      "G989A",
+                                      "A1004T",
+                                      "T1740C",
+                                      "G1926A",
+                                      "A2039G",
+                                      "C2311A",
+                                      "T2602C",
+                                      "C3325T",
+                                      "T3376C",
+                                      "C3529T",
+                                      "T3619C",
+                                      "C4688A",
+                                      "G5530C",
+                                      "C5674T",
+                                      "G5947A",
+                                      "T6544C",
+                                      "C6572A",
+                                      "G7291A",
+                                      "G7519A",
+                                      "T7762C",
+                                      "A8362G",
+                                      "A8386G",
+                                      "G8518A",
+                                      "T8828C",
+                                      "T8980C",
+                                      "T9805C",
+                                      "A9952G",
+                                      "A10225G",
+                                      "A10246G",
+                                      "G10492A",
+                                      "A10976G"
+                                    ],
+                                    "L": [
+                                      "K256N",
+                                      "S2072G"
+                                    ],
+                                    "N": [
+                                      "L18F",
+                                      "R313S"
+                                    ],
+                                    "P": [
+                                      "K226R"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "L: K256N, S2072G; N: L18F, R313S; P: K226R"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000014",
+                            "node_attrs": {
+                              "div": 0.0132855,
+                              "num_date": {
+                                "value": 2003.93,
+                                "confidence": [
+                                  1987.568,
+                                  2010.066
+                                ]
+                              },
+                              "district": {
+                                "value": "Gandhinagar",
+                                "confidence": {
+                                  "Gandhinagar": 0.984,
+                                  "Aravalli": 0.00593,
+                                  "Mehsana": 0.00293,
+                                  "Patan": 0.00168,
+                                  "Bhavnagar": 0.00164,
+                                  "Sabarkantha": 0.00159,
+                                  "Dungarpur": 0.00101
+                                },
+                                "entropy": 0.11
+                              },
+                              "state": {
+                                "value": "Gujarat",
+                                "confidence": {
+                                  "Gujarat": 1.0
+                                },
+                                "entropy": 0.00402
+                              },
+                              "date": {
+                                "value": "2026-07-26"
+                              },
+                              "year": {
+                                "value": "2026",
+                                "confidence": {
+                                  "2026": 1.0
+                                },
+                                "entropy": 0.00151
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A6949G"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "AES2607137",
+                                "node_attrs": {
+                                  "div": 0.0175278,
+                                  "num_date": {
+                                    "value": 2026.566,
+                                    "confidence": [
+                                      2026.566,
+                                      2026.566
+                                    ],
+                                    "inferred": false
+                                  },
+                                  "id": {
+                                    "value": "AES2607137"
+                                  },
+                                  "district": {
+                                    "value": "Aravalli",
+                                    "confidence": {
+                                      "Aravalli": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "state": {
+                                    "value": "Gujarat",
+                                    "confidence": {
+                                      "Gujarat": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "country": {
+                                    "value": "India"
+                                  },
+                                  "date": {
+                                    "value": "2026-07-26"
+                                  },
+                                  "year": {
+                                    "value": "2026",
+                                    "confidence": {
+                                      "2026": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C341T",
+                                      "G572A",
+                                      "G686A",
+                                      "G764A",
+                                      "C818T",
+                                      "C1378T",
+                                      "C1893A",
+                                      "T2010G",
+                                      "T2269C",
+                                      "G2590T",
+                                      "T2659A",
+                                      "T2719C",
+                                      "T2797C",
+                                      "C2870T",
+                                      "G2968A",
+                                      "C3209T",
+                                      "G3421A",
+                                      "T3559C",
+                                      "C3970T",
+                                      "G3994A",
+                                      "G4369A",
+                                      "G4634A",
+                                      "C4780A",
+                                      "G4979A",
+                                      "G5181A",
+                                      "C5272T",
+                                      "T5521C",
+                                      "G6178A",
+                                      "T6284C",
+                                      "T6550C",
+                                      "T6598C",
+                                      "T6754C",
+                                      "A6772G",
+                                      "T7714C",
+                                      "G7963A",
+                                      "G8309A",
+                                      "G8320A",
+                                      "T8575A",
+                                      "G8656A",
+                                      "A8938G",
+                                      "T9430C",
+                                      "A9568G",
+                                      "G9699A",
+                                      "G9763A",
+                                      "G10114A",
+                                      "A10615C",
+                                      "G10737A"
+                                    ],
+                                    "G": [
+                                      "A528T"
+                                    ],
+                                    "L": [
+                                      "D73N",
+                                      "R140K",
+                                      "D1183N",
+                                      "R1646K",
+                                      "R1992H"
+                                    ],
+                                    "M": [
+                                      "Q92H"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "G: A528T; L: D73N, R140K, D1183N, R1646K, R1992H; M: Q92H"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "AES2607082",
+                                "node_attrs": {
+                                  "div": 0.0170853,
+                                  "num_date": {
+                                    "value": 2026.549,
+                                    "confidence": [
+                                      2026.549,
+                                      2026.549
+                                    ],
+                                    "inferred": false
+                                  },
+                                  "id": {
+                                    "value": "AES2607082"
+                                  },
+                                  "district": {
+                                    "value": "Gandhinagar",
+                                    "confidence": {
+                                      "Gandhinagar": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "state": {
+                                    "value": "Gujarat",
+                                    "confidence": {
+                                      "Gujarat": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "country": {
+                                    "value": "India"
+                                  },
+                                  "date": {
+                                    "value": "2026-07-20"
+                                  },
+                                  "year": {
+                                    "value": "2026",
+                                    "confidence": {
+                                      "2026": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T351C",
+                                      "A356G",
+                                      "T407C",
+                                      "G1127A",
+                                      "T1151C",
+                                      "T1568C",
+                                      "C2050T",
+                                      "G2085A",
+                                      "T2449G",
+                                      "G2623A",
+                                      "T2764C",
+                                      "G2938A",
+                                      "T3073C",
+                                      "T3376A",
+                                      "T3487C",
+                                      "T3860C",
+                                      "C3934T",
+                                      "G4024A",
+                                      "G4120A",
+                                      "T4327C",
+                                      "G4438A",
+                                      "C4591T",
+                                      "C4664A",
+                                      "T5119C",
+                                      "T5422C",
+                                      "G5640A",
+                                      "A5650G",
+                                      "C6517T",
+                                      "T7174C",
+                                      "G7681A",
+                                      "G8077T",
+                                      "C8569A",
+                                      "A8677G",
+                                      "A9092C",
+                                      "A9454C",
+                                      "G9527A",
+                                      "C9667A",
+                                      "G9994A",
+                                      "A10082T",
+                                      "G10417A",
+                                      "C10705T",
+                                      "T10744C"
+                                    ],
+                                    "L": [
+                                      "R293K",
+                                      "V1589I",
+                                      "I1774L"
+                                    ],
+                                    "P": [
+                                      "L69S"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "L: R293K, V1589I, I1774L; P: L69S"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000015",
+                            "node_attrs": {
+                              "div": 0.0135554,
+                              "num_date": {
+                                "value": 2006.146,
+                                "confidence": [
+                                  1990.73,
+                                  2012.067
+                                ]
+                              },
+                              "district": {
+                                "value": "Mehsana",
+                                "confidence": {
+                                  "Mehsana": 0.986,
+                                  "Gandhinagar": 0.00676,
+                                  "Kheda": 0.00365,
+                                  "Bhavnagar": 0.00344
+                                },
+                                "entropy": 0.089
+                              },
+                              "state": {
+                                "value": "Gujarat",
+                                "confidence": {
+                                  "Gujarat": 1.0
+                                },
+                                "entropy": 0.000165
+                              },
+                              "date": {
+                                "value": "2026-07-26"
+                              },
+                              "year": {
+                                "value": "2026",
+                                "confidence": {
+                                  "2026": 1.0
+                                },
+                                "entropy": 3.83e-05
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C2998T",
+                                  "A4249G",
+                                  "T7190C",
+                                  "T10732C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "AES2607007",
+                                "node_attrs": {
+                                  "div": 0.0164413,
+                                  "num_date": {
+                                    "value": 2026.514,
+                                    "confidence": [
+                                      2026.514,
+                                      2026.514
+                                    ],
+                                    "inferred": false
+                                  },
+                                  "id": {
+                                    "value": "AES2607007"
+                                  },
+                                  "district": {
+                                    "value": "Mehsana",
+                                    "confidence": {
+                                      "Mehsana": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "state": {
+                                    "value": "Gujarat",
+                                    "confidence": {
+                                      "Gujarat": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "country": {
+                                    "value": "India"
+                                  },
+                                  "date": {
+                                    "value": "2026-07-07"
+                                  },
+                                  "year": {
+                                    "value": "2026",
+                                    "confidence": {
+                                      "2026": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G593A",
+                                      "C629T",
+                                      "G1524A",
+                                      "C1719T",
+                                      "T2079C",
+                                      "A2358G",
+                                      "G2737A",
+                                      "C3380A",
+                                      "G3887A",
+                                      "G4009A",
+                                      "C4480T",
+                                      "G4638A",
+                                      "T4975C",
+                                      "A5191G",
+                                      "A5290G",
+                                      "A5299G",
+                                      "T5515C",
+                                      "T5662A",
+                                      "A5868G",
+                                      "C6073A",
+                                      "G6256A",
+                                      "C6562T",
+                                      "G7355A",
+                                      "G7807A",
+                                      "T8051C",
+                                      "C8101T",
+                                      "T8404A",
+                                      "A9931G",
+                                      "A9949G",
+                                      "A10142G",
+                                      "C10654T",
+                                      "C10869A"
+                                    ],
+                                    "G": [
+                                      "A279T",
+                                      "R529K"
+                                    ],
+                                    "L": [
+                                      "E369G",
+                                      "V865I",
+                                      "I1794V",
+                                      "S2036Y"
+                                    ],
+                                    "M": [
+                                      "D15G"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "G: A279T, R529K; L: E369G, V865I, I1794V, S2036Y; M: D15G"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "AES2607134",
+                                "node_attrs": {
+                                  "div": 0.0162942,
+                                  "num_date": {
+                                    "value": 2026.566,
+                                    "confidence": [
+                                      2026.566,
+                                      2026.566
+                                    ],
+                                    "inferred": false
+                                  },
+                                  "id": {
+                                    "value": "AES2607134"
+                                  },
+                                  "district": {
+                                    "value": "Kheda",
+                                    "confidence": {
+                                      "Kheda": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "state": {
+                                    "value": "Gujarat",
+                                    "confidence": {
+                                      "Gujarat": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  },
+                                  "country": {
+                                    "value": "India"
+                                  },
+                                  "date": {
+                                    "value": "2026-07-26"
+                                  },
+                                  "year": {
+                                    "value": "2026",
+                                    "confidence": {
+                                      "2026": 1.0
+                                    },
+                                    "entropy": -1e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G203A",
+                                      "A1494G",
+                                      "G1611A",
+                                      "C2252G",
+                                      "T2421C",
+                                      "G2938A",
+                                      "C3036T",
+                                      "A3136G",
+                                      "T3322C",
+                                      "G3905T",
+                                      "C4243T",
+                                      "G4382A",
+                                      "A4435G",
+                                      "A4948G",
+                                      "G5218A",
+                                      "G6157A",
+                                      "A6670G",
+                                      "A6836G",
+                                      "C6904A",
+                                      "G7003A",
+                                      "C7687T",
+                                      "A8956G",
+                                      "G9082A",
+                                      "T9776C",
+                                      "C9796T",
+                                      "A10171C",
+                                      "C10210T",
+                                      "C10600T",
+                                      "A10761G",
+                                      "A10967C"
+                                    ],
+                                    "G": [
+                                      "A285S",
+                                      "D444N"
+                                    ],
+                                    "L": [
+                                      "I692V",
+                                      "Y1672H",
+                                      "K2000R"
+                                    ],
+                                    "M": [
+                                      "V36A"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "G: A285S, D444N; L: I692V, Y1672H, K2000R; M: V36A"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "NODE_0000017",
+                                "node_attrs": {
+                                  "div": 0.0156272,
+                                  "num_date": {
+                                    "value": 2015.773,
+                                    "confidence": [
+                                      2006.984,
+                                      2019.348
+                                    ]
+                                  },
+                                  "district": {
+                                    "value": "Mehsana",
+                                    "confidence": {
+                                      "Mehsana": 0.988,
+                                      "Bhavnagar": 0.00751,
+                                      "Gandhinagar": 0.00254,
+                                      "Kheda": 0.00146
+                                    },
+                                    "entropy": 0.074
+                                  },
+                                  "state": {
+                                    "value": "Gujarat",
+                                    "confidence": {
+                                      "Gujarat": 1.0
+                                    },
+                                    "entropy": 0.00151
+                                  },
+                                  "date": {
+                                    "value": "2026-07-26"
+                                  },
+                                  "year": {
+                                    "value": "2026",
+                                    "confidence": {
+                                      "2026": 1.0
+                                    },
+                                    "entropy": 0.000554
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T665C",
+                                      "G2160A",
+                                      "A2509G",
+                                      "G2623A",
+                                      "G3925A",
+                                      "C4562T",
+                                      "T4789C",
+                                      "G4888A",
+                                      "A5656C",
+                                      "G5776T",
+                                      "C5926A",
+                                      "T6529C",
+                                      "G7153A",
+                                      "T7204C",
+                                      "A7342G",
+                                      "G8722A",
+                                      "T8728C",
+                                      "G9076T",
+                                      "T9496C",
+                                      "G9838A",
+                                      "C10852T",
+                                      "T10882G"
+                                    ],
+                                    "G": [
+                                      "P504S"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "G: P504S"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "AES2607068",
+                                    "node_attrs": {
+                                      "div": 0.0178883,
+                                      "num_date": {
+                                        "value": 2026.544,
+                                        "confidence": [
+                                          2026.544,
+                                          2026.544
+                                        ],
+                                        "inferred": false
+                                      },
+                                      "id": {
+                                        "value": "AES2607068"
+                                      },
+                                      "district": {
+                                        "value": "Mehsana",
+                                        "confidence": {
+                                          "Mehsana": 1.0
+                                        },
+                                        "entropy": -1e-12
+                                      },
+                                      "state": {
+                                        "value": "Gujarat",
+                                        "confidence": {
+                                          "Gujarat": 1.0
+                                        },
+                                        "entropy": -1e-12
+                                      },
+                                      "country": {
+                                        "value": "India"
+                                      },
+                                      "date": {
+                                        "value": "2026-07-18"
+                                      },
+                                      "year": {
+                                        "value": "2026",
+                                        "confidence": {
+                                          "2026": 1.0
+                                        },
+                                        "entropy": -1e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T620C",
+                                          "C629T",
+                                          "T695C",
+                                          "A2038G",
+                                          "C2151T",
+                                          "A2298G",
+                                          "T2815C",
+                                          "A2883G",
+                                          "C3433T",
+                                          "T3823C",
+                                          "G3901A",
+                                          "C4480A",
+                                          "G4644A",
+                                          "G4795A",
+                                          "T5038C",
+                                          "C5362T",
+                                          "T5701G",
+                                          "G6943A",
+                                          "T7042C",
+                                          "C7652T",
+                                          "C8164T",
+                                          "C8749T",
+                                          "A9670G",
+                                          "A10599T",
+                                          "G10660A"
+                                        ],
+                                        "L": [
+                                          "D313E",
+                                          "D1946V"
+                                        ],
+                                        "M": [
+                                          "E190G"
+                                        ],
+                                        "P": [
+                                          "K226E"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "L: D313E, D1946V; M: E190G; P: K226E"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000018",
+                                    "node_attrs": {
+                                      "div": 0.0173384,
+                                      "num_date": {
+                                        "value": 2026.511,
+                                        "confidence": [
+                                          2025.896,
+                                          2026.545
+                                        ]
+                                      },
+                                      "district": {
+                                        "value": "Bhavnagar",
+                                        "confidence": {
+                                          "Bhavnagar": 1.0
+                                        },
+                                        "entropy": 0.00323
+                                      },
+                                      "state": {
+                                        "value": "Gujarat",
+                                        "confidence": {
+                                          "Gujarat": 1.0
+                                        },
+                                        "entropy": 0.000626
+                                      },
+                                      "date": {
+                                        "value": "2026-07-30"
+                                      },
+                                      "year": {
+                                        "value": "2026",
+                                        "confidence": {
+                                          "2026": 1.0
+                                        },
+                                        "entropy": 0.000227
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G392A",
+                                          "G476T",
+                                          "T488C",
+                                          "G1865A",
+                                          "C1946T",
+                                          "C3840A",
+                                          "C4159T",
+                                          "G4585T",
+                                          "C4671A",
+                                          "A5443G",
+                                          "G5608T",
+                                          "G5848A",
+                                          "G5947A",
+                                          "C6562T",
+                                          "T6736C",
+                                          "C8257T",
+                                          "C8491T",
+                                          "G9391A",
+                                          "C10048T",
+                                          "C10864T"
+                                        ],
+                                        "G": [
+                                          "T263N",
+                                          "E511D"
+                                        ],
+                                        "L": [
+                                          "M282I"
+                                        ],
+                                        "P": [
+                                          "R168K",
+                                          "T195I"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "G: T263N, E511D; L: M282I; P: R168K, T195I"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "AES2607156",
+                                        "node_attrs": {
+                                          "div": 0.0173384,
+                                          "num_date": {
+                                            "value": 2026.568,
+                                            "confidence": [
+                                              2026.568,
+                                              2026.568
+                                            ],
+                                            "inferred": false
+                                          },
+                                          "id": {
+                                            "value": "AES2607156"
+                                          },
+                                          "district": {
+                                            "value": "Bhavnagar",
+                                            "confidence": {
+                                              "Bhavnagar": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
+                                          "state": {
+                                            "value": "Gujarat",
+                                            "confidence": {
+                                              "Gujarat": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
+                                          "country": {
+                                            "value": "India"
+                                          },
+                                          "date": {
+                                            "value": "2026-07-27"
+                                          },
+                                          "year": {
+                                            "value": "2026",
+                                            "confidence": {
+                                              "2026": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      },
+                                      {
+                                        "name": "AES2607179",
+                                        "node_attrs": {
+                                          "div": 0.0173384,
+                                          "num_date": {
+                                            "value": 2026.577,
+                                            "confidence": [
+                                              2026.577,
+                                              2026.577
+                                            ],
+                                            "inferred": false
+                                          },
+                                          "id": {
+                                            "value": "AES2607179"
+                                          },
+                                          "district": {
+                                            "value": "Bhavnagar",
+                                            "confidence": {
+                                              "Bhavnagar": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
+                                          "state": {
+                                            "value": "Gujarat",
+                                            "confidence": {
+                                              "Gujarat": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          },
+                                          "country": {
+                                            "value": "India"
+                                          },
+                                          "date": {
+                                            "value": "2026-07-30"
+                                          },
+                                          "year": {
+                                            "value": "2026",
+                                            "confidence": {
+                                              "2026": 1.0
+                                            },
+                                            "entropy": -1e-12
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
