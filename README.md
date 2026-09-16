@@ -57,7 +57,6 @@ Metadata used in the build may include:
 - country
 - patient age
 - patient sex
-- outbreak period
 - sequence accession
 - genomic lineage or phylogenetic grouping where applicable
 
