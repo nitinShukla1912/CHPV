@@ -31,13 +31,7 @@ This project was developed to place the 2026 CHPV genomes within the broader gen
 
 The current analysis primarily focuses on CHPV genomes generated from clinical AES cases detected during the 2026 outbreak.
 
-The genomic analysis includes comparison with previously reported CHPV genomes, including the 2024 outbreak sequence:
-
-`PQ185534.2`
-
-and the reference genome:
-
-`NC_020805.1`
+The genomic analysis includes comparison with previously reported CHPV genomes, including the 2024 outbreak sequence: `PQ185534.2` and the reference genome: `NC_020805.1`
 
 The analysis is intended to help investigate:
 
