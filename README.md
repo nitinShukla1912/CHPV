@@ -47,7 +47,7 @@ The Nextstrain visualization is generated from CHPV genome sequences together wi
 
 The current dataset includes genomes from the 2026 AES outbreak and selected publicly available CHPV sequences representing previous outbreaks and historical circulation.
 
-Metadata used in the build may include:
+Metadata used in the build include:
 
 - sample identifier
 - collection date
@@ -57,10 +57,7 @@ Metadata used in the build may include:
 - country
 - patient age
 - patient sex
-- sequence accession
 - genomic lineage or phylogenetic grouping where applicable
-
-Only metadata appropriate for public genomic surveillance and research visualization should be included.
 
 ## Genomic analysis
 
