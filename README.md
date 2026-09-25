@@ -2,7 +2,7 @@
 
 This repository contains a Nextstrain dataset developed to explore the genomic epidemiology of Chandipura virus (CHPV), with a focus on viruses detected during the 2026 acute encephalitis syndrome (AES) outbreak in Gujarat, India.
 
-The interactive Nextstrain build allows researchers to examine the phylogenetic relationships, temporal distribution, geographic distribution, and genomic variation of CHPV sequences in the context of previously reported viruses.
+The interactive Nextstrain build allows helps examine the phylogenetic relationships, temporal distribution, geographic distribution, and genomic variation of CHPV sequences in the context of previously reported viruses.
 
 ## Interactive Nextstrain build
 
